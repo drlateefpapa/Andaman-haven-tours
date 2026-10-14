@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotels | Andaman Haven Tours</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <nav class="bg-teal-700 text-white sticky top-0 z-50 shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-umbrella-beach text-2xl"></i>
+        <span class="text-xl font-bold">Andaman Haven Tours</span>
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-sand">Home</a>
+        <a href="packages.html" class="hover:text-sand">Packages</a>
+        <a href="hotels.html" class="hover:text-sand font-semibold">Hotels</a>
+        <a href="about.html" class="hover:text-sand">About</a>
+        <a href="booking.html" class="bg-sand text-teal-700 px-4 py-2 rounded-full font-semibold hover:bg-yellow-200">Book Now</a>
+      </div>
+      <button class="md:hidden" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-teal-800 px-4 pb-4">
+      <a href="index.html" class="block py-2">Home</a>
+      <a href="packages.html" class="block py-2">Packages</a>
+      <a href="hotels.html" class="block py-2">Hotels</a>
+      <a href="about.html" class="block py-2">About</a>
+      <a href="booking.html" class="block py-2 font-semibold">Book Now</a>
+    </div>
+  </nav>
+
+  <section class="py-12 bg-teal-50">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-5xl font-bold text-teal-700 mb-4">Handpicked Hotels in Port Blair</h1>
+      <p class="text-xl max-w-3xl mx-auto">Comfortable, scenic, and welcoming stays that make your Andaman experience even more optimistic and relaxing.</p>
+    </div>
+  </section>
+
+  <div class="container mx-auto px-4 py-12">
+    <div class="grid md:grid-cols-2 gap-10">
+      <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+        <img src="imagine_images/9FpYQ.jpg" alt="Oceanview Luxury Resort" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h2 class="text-2xl font-bold text-teal-700 mb-2">Oceanview Luxury Resort</h2>
+          <p class="mb-4">A stunning modern resort overlooking the sea, featuring infinity pools, lush gardens, and premium amenities. Perfect for luxury packages.</p>
+          <div class="flex items-center mb-4">
+            <i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i>
+            <span class="ml-2 text-sm">5-Star Experience</span>
+          </div>
+          <p class="text-teal-600 font-semibold">From ₹8,000 / night</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+        <img src="imagine_images/jXkA6.jpg" alt="Sea View Suite" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h2 class="text-2xl font-bold text-teal-700 mb-2">Serene Sea-View Suites</h2>
+          <p class="mb-4">Spacious rooms with private balconies offering breathtaking ocean vistas. Wake up to turquoise waters and tropical breezes every day.</p>
+          <div class="flex items-center mb-4">
+            <i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i><i class="fas fa-star-half-alt text-yellow-400"></i>
+            <span class="ml-2 text-sm">Premium Comfort</span>
+          </div>
+          <p class="text-teal-600 font-semibold">From ₹5,500 / night</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl overflow-hidden md:col-span-2">
+        <div class="md:flex">
+          <img src="imagine_images/hXdia.jpg" alt="Beach Access" class="md:w-1/2 h-64 md:h-auto object-cover">
+          <div class="p-6 md:w-1/2">
+            <h2 class="text-2xl font-bold text-teal-700 mb-2">Island Haven Boutique Hotel</h2>
+            <p class="mb-4">Centrally located with easy access to attractions, featuring comfortable rooms, friendly staff, and options for mid-range packages. Ideal for families and explorers.</p>
+            <div class="flex items-center mb-4">
+              <i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i><i class="fas fa-star text-yellow-400"></i>
+              <span class="ml-2 text-sm">Great Value</span>
+            </div>
+            <p class="text-teal-600 font-semibold">From ₹3,200 / night</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-12">
+      <p class="text-lg mb-4">All packages include carefully selected accommodations. Customize your stay when booking!</p>
+      <a href="booking.html" class="bg-teal-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-teal-700">Book Your Stay</a>
+    </div>
+  </div>
+
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p class="mb-2"><i class="fas fa-map-marker-alt"></i> Port Blair, Andaman & Nicobar Islands, India</p>
+      <p class="mb-2"><i class="fas fa-phone"></i> +91 98765 43210 | <i class="fas fa-envelope"></i> info@andamanhaven.com</p>
+      <p class="text-sm text-gray-400">&copy; 2026 Andaman Haven Tours. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

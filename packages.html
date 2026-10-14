@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Packages | Andaman Haven Tours</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <nav class="bg-teal-700 text-white sticky top-0 z-50 shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-umbrella-beach text-2xl"></i>
+        <span class="text-xl font-bold">Andaman Haven Tours</span>
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-sand">Home</a>
+        <a href="packages.html" class="hover:text-sand font-semibold">Packages</a>
+        <a href="hotels.html" class="hover:text-sand">Hotels</a>
+        <a href="about.html" class="hover:text-sand">About</a>
+        <a href="booking.html" class="bg-sand text-teal-700 px-4 py-2 rounded-full font-semibold hover:bg-yellow-200">Book Now</a>
+      </div>
+      <button class="md:hidden" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-teal-800 px-4 pb-4">
+      <a href="index.html" class="block py-2">Home</a>
+      <a href="packages.html" class="block py-2">Packages</a>
+      <a href="hotels.html" class="block py-2">Hotels</a>
+      <a href="about.html" class="block py-2">About</a>
+      <a href="booking.html" class="block py-2 font-semibold">Book Now</a>
+    </div>
+  </nav>
+
+  <section class="py-12 bg-teal-50">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-5xl font-bold text-teal-700 mb-4">Our Optimistic Tour Packages</h1>
+      <p class="text-xl max-w-3xl mx-auto">Handcrafted for joy, discovery, and relaxation. Perfect for families, couples, and solo explorers seeking the best of Port Blair and the islands!</p>
+    </div>
+  </section>
+
+  <div class="container mx-auto px-4 py-12 space-y-16">
+    <!-- Package 1 -->
+    <div id="heritage" class="bg-white rounded-2xl shadow-xl overflow-hidden">
+      <div class="md:flex">
+        <img src="imagine_images/bgRsO.jpg" alt="Heritage" class="md:w-1/2 h-64 md:h-auto object-cover">
+        <div class="p-8 md:w-1/2">
+          <h2 class="text-3xl font-bold text-teal-700 mb-2">Port Blair Heritage Explorer</h2>
+          <p class="text-lg text-gray-600 mb-4">3 Days / 2 Nights • Ideal for history lovers & short getaways</p>
+          <p class="mb-4">Immerse yourself in the rich history of the Andamans while enjoying serene beaches. Visit the iconic Cellular Jail, explore Ross Island's colonial ruins, snorkel at North Bay, and relax at Corbyn’s Cove. An optimistic start to your island adventure!</p>
+          <ul class="list-disc list-inside mb-4 space-y-1">
+            <li>Airport transfers & guided sightseeing</li>
+            <li>Cellular Jail + Light & Sound Show</li>
+            <li>Ross Island & North Bay excursion</li>
+            <li>Corbyn’s Cove Beach time</li>
+            <li>Breakfast included, mid-range hotel</li>
+          </ul>
+          <p class="text-3xl font-bold text-teal-600 mb-4">₹18,999 <span class="text-lg font-normal">per person</span></p>
+          <a href="booking.html?package=heritage" class="bg-teal-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-700">Book This Package</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Package 2 -->
+    <div id="havelock" class="bg-white rounded-2xl shadow-xl overflow-hidden">
+      <div class="md:flex flex-row-reverse">
+        <img src="imagine_images/ddbzy.jpg" alt="Havelock Beach" class="md:w-1/2 h-64 md:h-auto object-cover">
+        <div class="p-8 md:w-1/2">
+          <h2 class="text-3xl font-bold text-teal-700 mb-2">Havelock Beach Paradise</h2>
+          <p class="text-lg text-gray-600 mb-4">4 Days / 3 Nights • Pure beach bliss on Swaraj Dweep</p>
+          <p class="mb-4">Escape to Asia’s finest beaches! Ferry to Havelock (Swaraj Dweep), lounge on Radhanagar Beach, snorkel at Elephant Beach, and soak in sunsets. Optimistic vibes and crystal-clear waters guaranteed for a rejuvenating holiday.</p>
+          <ul class="list-disc list-inside mb-4 space-y-1">
+            <li>Ferry tickets to Havelock included</li>
+            <li>Radhanagar & Elephant Beach visits</li>
+            <li>Snorkeling experience</li>
+            <li>Beachfront or resort stay</li>
+            <li>Daily breakfast & transfers</li>
+          </ul>
+          <p class="text-3xl font-bold text-teal-600 mb-4">₹28,499 <span class="text-lg font-normal">per person</span></p>
+          <a href="booking.html?package=havelock" class="bg-teal-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-700">Book This Package</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Package 3 -->
+    <div id="hopper" class="bg-white rounded-2xl shadow-xl overflow-hidden">
+      <div class="md:flex">
+        <img src="imagine_images/Zq5gd.jpg" alt="Island Hopper" class="md:w-1/2 h-64 md:h-auto object-cover">
+        <div class="p-8 md:w-1/2">
+          <h2 class="text-3xl font-bold text-teal-700 mb-2">Andaman Island Hopper</h2>
+          <p class="text-lg text-gray-600 mb-4">6 Days / 5 Nights • Complete island experience</p>
+          <p class="mb-4">The ultimate optimistic journey! Explore Port Blair’s heritage, then hop to Havelock’s beaches and Neil Island’s peaceful shores with Natural Bridge. Perfect balance of history, adventure, and pure relaxation.</p>
+          <ul class="list-disc list-inside mb-4 space-y-1">
+            <li>Port Blair city tour + islands</li>
+            <li>Havelock: Radhanagar & snorkeling</li>
+            <li>Neil Island: beaches & cycling</li>
+            <li>All ferries & transfers</li>
+            <li>Comfortable hotels with breakfast</li>
+          </ul>
+          <p class="text-3xl font-bold text-teal-600 mb-4">₹42,999 <span class="text-lg font-normal">per person</span></p>
+          <a href="booking.html?package=hopper" class="bg-teal-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-700">Book This Package</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Package 4 -->
+    <div id="family" class="bg-white rounded-2xl shadow-xl overflow-hidden">
+      <div class="md:flex flex-row-reverse">
+        <img src="imagine_images/8XK4y.jpg" alt="Family" class="md:w-1/2 h-64 md:h-auto object-cover">
+        <div class="p-8 md:w-1/2">
+          <h2 class="text-3xl font-bold text-teal-700 mb-2">Family Fun Getaway</h2>
+          <p class="text-lg text-gray-600 mb-4">5 Days / 4 Nights • Smiles for every generation</p>
+          <p class="mb-4">Create lasting memories with kid-friendly activities! Light water sports, beach play, museums, and gentle island visits. Our optimistic approach ensures fun, safety, and joy for the whole family in Port Blair and nearby spots.</p>
+          <ul class="list-disc list-inside mb-4 space-y-1">
+            <li>Family-friendly hotels & activities</li>
+            <li>Cellular Jail & Corbyn’s Cove</li>
+            <li>Glass-bottom boat or gentle snorkeling</li>
+            <li>Chidiya Tapu sunset</li>
+            <li>All meals options available</li>
+          </ul>
+          <p class="text-3xl font-bold text-teal-600 mb-4">₹35,999 <span class="text-lg font-normal">per person</span></p>
+          <a href="booking.html?package=family" class="bg-teal-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-700">Book This Package</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Package 5 -->
+    <div id="luxury" class="bg-white rounded-2xl shadow-xl overflow-hidden">
+      <div class="md:flex">
+        <img src="imagine_images/9FpYQ.jpg" alt="Luxury" class="md:w-1/2 h-64 md:h-auto object-cover">
+        <div class="p-8 md:w-1/2">
+          <h2 class="text-3xl font-bold text-teal-700 mb-2">Luxury Island Escape</h2>
+          <p class="text-lg text-gray-600 mb-4">7 Days / 6 Nights • Premium relaxation & exclusivity</p>
+          <p class="mb-4">Indulge in the finest Andaman has to offer. Private transfers, luxury resorts with pools and spas, exclusive beach access, and personalized experiences. An optimistic, stress-free luxury holiday tailored for you.</p>
+          <ul class="list-disc list-inside mb-4 space-y-1">
+            <li>5-star & luxury resorts</li>
+            <li>Private AC transfers & ferries</li>
+            <li>Spa sessions & fine dining</li>
+            <li>Havelock + Port Blair premium stays</li>
+            <li>Concierge service</li>
+          </ul>
+          <p class="text-3xl font-bold text-teal-600 mb-4">₹65,999 <span class="text-lg font-normal">per person</span></p>
+          <a href="booking.html?package=luxury" class="bg-teal-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-700">Book This Package</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p class="mb-2"><i class="fas fa-map-marker-alt"></i> Port Blair, Andaman & Nicobar Islands, India</p>
+      <p class="mb-2"><i class="fas fa-phone"></i> +91 98765 43210 | <i class="fas fa-envelope"></i> info@andamanhaven.com</p>
+      <p class="text-sm text-gray-400">&copy; 2026 Andaman Haven Tours. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
